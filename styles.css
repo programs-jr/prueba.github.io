@@ -1,123 +1,38 @@
-.contenedor-encabezado {
-background-color: #999;
-opacity: 0.6;
-border-radius: 8px;
-width: 95%;
-margin:2% 2%;
-height: 9%;
-display: flex;
-padding: 1%;
+body {
+  background-color: #ccc;
 }
 
-.titulo {
-width: 30%;
-font-family: italic;
-font-size: 90%;
-padding: 2%;
-text-align: justify;
-border-radius: 8px;
-border-left: black solid 5px;
-margin: 15px 3%;
-height: 65%;
-box-shadow: 9px 5px 12px 3px black;
-background-color: white;
-overflow: auto;
+.carta{
+  width: 60%;
+  height: 45%;
+  z-index: 15;
+  text-align: center;
+  font-style: italic;
+  position: absolute;
+  top: 5%;
+  left: 19.5%;
+  background-color: white;
+  padding: 4%;
+  border-radius: 14px;
+  outline: 5px solid black;
+  outline-offset: 18px;
 }
 
-strong {
-font-size: 125%;
+.sobre {
+  background-color: #888;
+  width: 68.5%;
+  height: 50%;
+  position: absolute;
+  top: 5.1%;
+  left: 19.5%;
+  z-index: 20;
+  transition-property: background;
+  transition-duration: 2s;
+  border-radius: 14px;
 }
 
-.logotipo {
-width: 15%;
-height:65%;
-margin-left: 48%;
-margin-top: 2%;
-margin-bottom: 1.5%;
-border-radius: 8px;
-overflow: auto;
+.sobre:hover {
+  background: radial-gradient(transparent, transparent, #777);
 }
 
-.contenedor-completo {
-background-color: #aaa;
-opacity: 0.5;
-border-radius: 14px;
-width: 95%;
-margin-top: 4%;
-margin-left: 3%;
-margin-right: 3%;
-height: 70%;
-display: flex;
-}
 
-.introduccion {
-width: 95%;
-font-size: 110%;
-margin: 8% 8%;
-border-top: black solid 4px;
-border-radius: 8px;
-box-shadow: 8px 4px 11px 2px black;
-padding: 3%;
-height: 42%;
-color: #999;
-text-align: justify;
-background-color: gray;
-display: enline;
-transition-property: background-color, color, margin-top;
-transition-duration: 1s;
-overflow: auto;
-}
-
-.introduccion:hover {
-color: black;
-background-color: white;
-margin-top: 4%;
-}
-
-.propuesta1 {
-opacity: 1;
-width: 60%;
-height: 30%;
-box-shadow: 8px 4px 11px 2px black;
-text-align: justify;
-border-radius: 8px;
-padding: 5%;
-font-size: 90%;
-font-family: sans-serif;
-background-color: gray;
-color: #999;
-margin: 18% 5%;
-transition-property: background-color, color, margin-top;
-transition-duration: 2s;
-overflow: auto;
-}
-
-.propuesta1:hover {
-color: black;
-background-color: white;
-margin-top: 6%;
-}
-
-.propuesta2 {
-opacity: 1;
-width: 60%;
-height: 8%;
-box-shadow: 8px 4px 11px 2px black;
-text-align: justify;
-border-radius: 8px;
-padding: 5%;
-font-size: 90%;
-font-family: sans-serif;
-background-color: gray;
-color: #999;
-margin: 53% -95%;
-transition-property: background-color, color, margin-top;
-transition-duration: 2s;
-overflow: auto;
-}
-
-.propuesta2:hover {
-color: black;
-background-color: white;
-margin-top: 22%;
-}
