@@ -16,6 +16,7 @@ body {
   border-radius: 14px;
   outline: 5px solid black;
   outline-offset: 18px;
+  font-size: 100%;
 }
 
 .sobre {
